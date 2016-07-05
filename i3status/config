@@ -1,0 +1,43 @@
+general {
+	colors = true
+	interval = 1
+	output_format = none
+	color_good = "#2267a5"
+	color_degraded = "#8c7f22"
+	color_bad = "#be2422"
+}
+
+order += "disk /"
+order += "ethernet enp0s3"
+order += "cpu_usage"
+order += "volume master"
+order += "tztime local"
+order += "load"
+
+ethernet enp0s3 {
+	format_up = " LAN: %ip %speed "
+	format_down = " LAN: (/) "
+}
+
+tztime local {
+	format = " Date: %m/%d/%y  Time: %H:%M "
+}
+
+cpu_usage {
+	format = " CPU: %usage "
+}
+
+disk "/" {
+	format = " Disk: %free "
+}
+
+volume master {
+	format = " Vol: %volume "
+	device = "default"
+	mixer = "Master"
+	mixer_idx = 0
+}
+load {
+        format = "Load: %5min"
+}
+
