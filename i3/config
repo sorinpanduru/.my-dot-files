@@ -97,7 +97,7 @@ bindsym $mod+a focus parent
 set $tag1 "1: term"
 set $tag2 "2: web"
 set $tag3 "3: ide"
-set $tag4 "4: db"
+set $tag4 "4: chat"
 set $tag5 "5: music"
 
 # switch to workspace
