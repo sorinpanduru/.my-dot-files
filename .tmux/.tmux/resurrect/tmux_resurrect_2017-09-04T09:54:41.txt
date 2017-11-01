@@ -1,0 +1,9 @@
+pane	0	0	:zsh	1	:*	0	:/Users/sorinpanduru/.tmuxtheme	0	zsh	:
+pane	0	0	:zsh	1	:*	1	:/Users/sorinpanduru	0	zsh	:
+pane	0	0	:zsh	1	:*	2	:/Users/sorinpanduru/.tmuxtheme/tmux-powerline	1	zsh	:
+pane	0	0	:zsh	1	:*	3	:/Users/sorinpanduru/docker/app_files/raclette/ml/dataset/train	0	zsh	:
+pane	0	0	:zsh	1	:*	4	:/Users/sorinpanduru	0	bash	:/bin/bash /usr/local/bin/docker-get-prompt.sh developmentdocker_fd_ai_cpu
+pane	0	0	:zsh	1	:*	5	:/Users/sorinpanduru	0	bash	:/bin/bash /usr/local/bin/docker-get-prompt.sh developmentdocker_fd_ai_cpu
+pane	0	0	:zsh	1	:*	6	:/Users/sorinpanduru	0	zsh	:
+window	0	0	1	:*	e517,272x62,0,0{194x62,0,0[194x25,0,0{112x25,0,0,1,81x25,113,0,2},194x36,0,26,3],77x62,195,0[77x14,195,0,4,77x22,195,15,5,77x10,195,38,6,77x13,195,49,7]}
+state	0	
